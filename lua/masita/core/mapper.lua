@@ -97,7 +97,7 @@ local function get_base()
     -- Field = { fg = mta.light_blue },
     Float = { link = "Constant" },
     Function = { fg = mta.blue, style = opts.styles.functions },
-    Identifier = { fg = mta.cyan },
+    Identifier = { fg = mta.light_cyan },
     -- Ignore = { fg = mta.light_gray },
     -- Include = { fg = mta.blue },
     Keyword = { fg = mta.magenta },

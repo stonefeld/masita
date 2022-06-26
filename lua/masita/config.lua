@@ -35,6 +35,7 @@ M.opts = {
       },
     },
     telescope = true,
+    dap = true,
   },
 }
 

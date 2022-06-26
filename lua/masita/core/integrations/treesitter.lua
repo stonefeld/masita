@@ -12,7 +12,7 @@ function M.get(mta)
     TSConstMacro = { link = "PreProc" },
     TSConstant = { link = "Constant" },
     TSConstructor = { link = "Type" },
-    TSError = { link = "Error" },
+    TSError = { link = "Normal" },
     TSException = { link = "Exception" },
     TSField = { link = "Identifier" },
     TSParameter = { fg = mta.cyan, style = opts.styles.parameters },

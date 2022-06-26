@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get_scheme()
-  local scheme = vim.g.masita_scheme
+  local scheme = opts.scheme
 
   if scheme then
     local status_ok, mta = pcall(require, "masita.core.schemes." .. scheme)
