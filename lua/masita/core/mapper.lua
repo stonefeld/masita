@@ -61,6 +61,7 @@ local function get_base()
     StatusLineAccentVisual = { fg = opts.accent_bg and mta.black or mta.magenta, bg = opts.accent_bg and mta.magenta or mta.none },
     StatusLineAccentReplace = { fg = opts.accent_bg and mta.black or mta.red, bg = opts.accent_bg and mta.red or mta.none },
     StatusLineAccentCmd = { fg = opts.accent_bg and mta.black or mta.green, bg = opts.accent_bg and mta.green or mta.none },
+    StatusLineAccentExtra = { fg = opts.accent_bg and mta.black or mta.cyan, bg = opts.accent_bg and mta.cyan or mta.none },
 
     TabLine = { fg = mta.light_gray, bg = mta.light_black },
     TabLineFill = { fg = mta.white, bg = mta.light_black },
