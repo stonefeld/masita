@@ -33,6 +33,7 @@ local function get_base()
     Visual = { bg = mta.gray },
     VisualNOS = { bg = mta.gray, style = "underline" },
     QuickFixLine = { link = "CursorLine" },
+    qfLineNr = { fg = mta.yellow },
 
     ErrorMsg = { bg = mta.red },
     WarningMsg = { fg = mta.black, bg = mta.yellow },
